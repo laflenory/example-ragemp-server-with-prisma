@@ -8,3 +8,14 @@ import { client } from './src/database';
     console.log(error);
   }
 })();
+
+mp.events.add('playerJoin', async (player) => {
+  const { name } = player;
+
+  await client.user.create({
+    data: {
+      email: 'example@gmail.com',
+      userName: name
+    }
+  });
+});
