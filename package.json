@@ -1,0 +1,21 @@
+{
+	"name": "example-ragemp-server-with-prisma",
+	"version": "1.0.0",
+	"scripts": {
+		"build::client": "",
+		"build::server": "",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@ragempcommunity/types-client": "^2.1.8",
+		"@ragempcommunity/types-server": "^2.1.8",
+		"esbuild": "^0.23.0",
+		"esbuild-plugin-copy": "^2.1.1",
+		"prettier": "^3.3.2",
+		"prettier-plugin-organize-imports": "^4.0.0",
+		"typescript": "^5.5.3"
+	},
+	"repository": "git@github.com:laflenory/example-ragemp-server-with-prisma.git",
+	"author": "Artyom Tarasov <laflenory@gmail.com>",
+	"license": "MIT"
+}

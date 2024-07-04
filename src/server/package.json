@@ -1,0 +1,11 @@
+{
+  "name": "@example-ragemp-server-with-prisma/server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "^5.16.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1"
+  }
+}
