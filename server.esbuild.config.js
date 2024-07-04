@@ -8,7 +8,7 @@ const { copy } = require('esbuild-plugin-copy');
     platform: 'node',
     target: 'node10.4',
     minify: true,
-    outfile: './__build__/packages/pearl-project/index.js',
+    outfile: './__build__/packages/example-project/index.js',
     plugins: [
       copy({
         resolveFrom: 'cwd',
